@@ -1,0 +1,102 @@
+
+/* Tampilan dasar */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8ed;
+    color: #333;
+}
+
+/* Grouping selector */
+h1, h3, p {
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d8c9b8;
+}
+
+/* Judul */
+h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    color: #704214;
+}
+
+/* Descendant selector */
+h1 span {
+    color: green;
+}
+
+/* Garis */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #d8b08c;
+}
+
+/* Bagian sambutan */
+div {
+    background-color: #f5eadb;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 18px;
+}
+
+/* Tulisan kecil */
+div p small {
+    color: #8b6f55;
+    font-size: 15px;
+}
+
+/* Judul utama */
+div h3 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #3f2a1d;
+    margin-bottom: 0;
+}
+
+/* Navigasi */
+nav {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d8c9b8;
+}
+
+/* Judul menu */
+nav .bedo {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #704214;
+}
+
+/* Menu navigasi */
+.nav {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #f5eadb;
+    transition: 0.3s;
+}
+
+/* Hover */
+.nav:hover {
+    color: white;
+    background-color: #704214;
+    transform: translateY(-3px);
+}
